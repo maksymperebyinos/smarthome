@@ -1,0 +1,33 @@
+.text-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  @media (max-width: 1080px) {
+    max-width: 640px;
+  }
+  @media (max-width: 580px) {
+    max-width: 320px;
+  }
+}
+
+.text-section__text {
+  width: 960px;
+  height: 96px;
+  margin: 182px 0 0 117px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  font-style: italic;
+  @media (max-width: 1080px) {
+    margin: 0 27px;
+    text-align: center;
+  }
+}
+
+.text-section__image {
+  @media (max-width: 1080px) {
+    display: none;
+  }
+}

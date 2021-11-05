@@ -1,0 +1,152 @@
+.testimonials {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 182px 15px 161px 15px;
+}
+
+.testimonials__slider-item {
+  width: 540px;
+  box-shadow: 0px 20px 48px rgba(0, 0, 0, 0.06);
+  border-radius: 24px;
+  background-color: #FFFFFF;
+  position: relative;
+  padding: 30px 20px;
+  height: 100%;
+  @media (max-width: 580px) {
+    text-align: center;
+  }
+  &::before {
+    content: "";
+    width: 74px;
+    height: 64px;
+    position: absolute;
+    top: 63%;
+    left: 78%;
+    background-image: url(../img/ico-quote.png);
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    @media (max-width: 430px) {
+      top: 68%;
+      left: 60%;
+    }
+    @media (max-width: 380px) {
+      top: 74%;
+      left: 62%;
+    }
+  }
+}
+
+.testimonials__autor-image {
+  position: absolute;
+  top: -13%;
+  left: 89%;
+  @media (max-width: 832px) {
+    left: 93%;
+    top: -16%;
+  }
+  @media (max-width: 580px) {
+    left: 42%;
+    top: -8%;
+  }
+  @media (max-width: 480px) {
+    left: 39%;
+  }
+  @media (max-width: 380px) {
+    top: -7%;
+    left: 37%;
+  }
+}
+
+.testimonials__slider-desription {
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 160%;
+  color: #262B35;
+  @media (max-width: 580px) {
+    margin-top: 40px;
+  }
+}
+
+.slider__title {
+  margin-bottom: 11px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #262B35;
+  padding: 0 0 0 10px;
+}
+
+.slider__text {
+  padding: 0 0 0 10px;
+}
+
+.testimonials__info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.slick-slide {
+  margin: 55px 30px 0 20px;
+}
+
+.testimonials__slider--height {
+  margin-top: 74px;
+  @media (max-width: 480px) {
+    margin-top: 90px;
+  }
+  @media (max-width: 320px) {
+    margin-top: 117px;
+  }
+}
+
+.slick-arrow {
+  position: absolute;
+  z-index: 10;
+  top: 45%;
+  font-size: 0;
+  width: 43px;
+  height: 43px;
+  background-color: transparent;
+  outline:none;
+  border: none;
+  cursor: pointer;
+}
+
+.slick-prev {
+  left: 0;
+  background-image: url(../img/btn-prev.png);
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.slick-next {
+  right: 0;
+  background-image: url(../img/btn-next.png);
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #1C57C9;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #85878d;
+  border-radius: 50%;
+}

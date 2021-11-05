@@ -1,0 +1,30 @@
+.button {
+	width: 272px;
+	height: 44px;
+  @media (max-width: 1080px) {
+    margin: 0 auto;
+  }
+}
+
+.button__wrapper {
+	display: flex;
+	justify-content: space-between;
+	@media (max-width: 420px) {
+    // display: none;
+	}
+}
+
+.button__header {
+	font-size: 15px;
+	font-weight: 700;
+  padding: 12px 19px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+	border: 1px solid #FFFFFF;
+	border-radius: 3px;
+	background-color: transparent;
+	color: #FFFFFF;
+	&:hover {
+    background-color: #1ECE7A;
+  }
+}

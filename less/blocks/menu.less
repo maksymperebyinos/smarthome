@@ -1,0 +1,143 @@
+.menu {
+  @media (max-width: 1080px) {
+    display: none;
+  }
+}
+
+.menu__list {
+  width: 421px;
+	display: flex;
+  justify-content: space-between;
+}
+
+.menu__list,
+.menu-adaptive__list {
+	list-style: none;
+}
+
+.menu__list-link {
+	display: block;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.6;
+  &:hover {
+  	opacity: 1;
+	  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.menu-adaptive {
+  display: none;
+  @media (max-width: 1080px) {
+    display: block;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    transition: all .3s;
+    top: 0;
+    left: -100%;
+  }
+}
+
+.menu-adaptive__show {
+  left: 0;
+}
+
+.menu-adaptive__box {
+  display: flex;
+  justify-content: space-between;
+  max-width: 756px;
+  margin: 0 auto;
+  padding: 0 20px 42px 20px;
+  align-items: center;
+}
+
+.menu-adaptive__text {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #262B35;
+  padding: 48px 0 48px 0;
+}
+
+.menu-adaptive__btn {
+  width: 84px;
+  height: 36px;
+}
+
+.menu-adaptive__container {
+  max-width: 170px;
+  margin: 0 auto;
+}
+
+.menu-adaptive__list-link {
+  font-size: 24px;
+  line-height: 24px;
+  color: #606C84;
+  &:hover {
+    color: #1C57C9;
+    font-weight: 600;
+  }
+}
+
+.menu-adaptive__list-item {
+  padding: 0 0 42px 0;
+  text-align: center;
+}
+
+.menu-adaptive__button-inner {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 37px;
+}
+
+.menu-adaptive__header-btn {
+  padding: 19px;
+  font-size: 15px;
+	font-weight: 700;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+	border: 1px solid #1ECE7A;
+	border-radius: 3px;
+	background-color: transparent;
+	color: #1ECE7A;
+	&:hover {
+    background-color: #1ECE7A;
+    color: #FFFFFF;
+  }
+}
+
+.menu-adaptive__getstarted {
+  margin-bottom: 10px;
+}
+
+.menu-adaptive__nav-btn {
+  display: none;
+  @media (max-width: 1080px) {
+    display: block;
+    padding: 9px 21px;
+    color: #FF5A4F;
+    border: 1px solid #FF5A4F;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    z-index: 1;
+    position: relative;
+  }
+}
+
+.menu-adaptive__nav-btn-wrapper {
+  margin-left: auto;
+  padding: 0 10px 0 0;
+}
+
+.menu-adaptive__active {
+  display: none;
+  @media (max-width: 1080px) {
+    display: block;
+  }
+}

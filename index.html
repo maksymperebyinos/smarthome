@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siphome</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/slick.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__content">
+        <div class="menu-adaptive">
+          <div class="menu-adaptive__box">
+            <p class="menu-adaptive__text">
+              Siphome Menu
+            </p>
+          </div>
+          <div class="menu-adaptive__container">
+            <nav class="menu-adaptive__nav">
+              <ul class="menu-adaptive__list">
+                <li class="menu-adaptive__list-item">
+                  <a class="menu-adaptive__list-link" href="#">Home</a>
+                </li>
+                <li class="menu-adaptive__list-item">
+                  <a class="menu-adaptive__list-link" href="#features">Features</a>
+                </li>
+                <li class="menu-adaptive__list-item">
+                  <a class="menu-adaptive__list-link" href="#services">Services</a>
+                </li>
+                <li class="menu-adaptive__list-item">
+                  <a class="menu-adaptive__list-link" href="#contact">Contact</a>
+                </li>
+                <li class="menu-adaptive__list-item">
+                  <a class="menu-adaptive__list-link" href="#">FAQ</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="menu-adaptive__button-inner">
+              <button class="menu-adaptive__header-btn menu-adaptive__getstarted">Get Started</button>
+              <button class="menu-adaptive__header-btn menu-adaptive__signin">Sign In</button>
+            </div>
+          </div>
+        </div>
+        <div class="header__container">
+          <div class="header__top">
+            <a class="logo">
+              <img class="logo__img" src="img/logo.svg" width="167px" height="42px" alt="Siphome Logo">
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">Home</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#features">Features</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#services">Services</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#contact">Contact</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">FAQ</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="menu-adaptive__nav-btn-wrapper">
+              <button class="menu-adaptive__nav-btn 12345" id="btntoggle" onclick="showhide()">Menu</button>
+            </div>
+          </div>
+          <div class="header__content-wrapper">
+            <h1 class="header__content-title">Imagine your home smart enough <span class="header__content-title-green">to take care</span> of itself.</h1>
+            <p class="header__content-description">
+              Turn your home into a smarthome today with a simple & affordable upgrade. Discover the upgrade that automates home maintenance.
+            </p>
+            <div class="button">
+              <div class="button__wrapper">
+                <button class="button__header" type="button">Get Started</button>
+                <button class="button__header" type="button">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__register">
+        <a class="header__register-link header__register--login" href="#">Sign In</a>
+        <a class="header__register-link header__register--signup" href="#">Get Started</a>
+        <img class="header__box-image" src="img/hero-image.png" width="561" height="700" alt="Sample your home">
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="text-section">
+      <p class="text-section__text">
+        Every day your home faces countless potential threats. Every day you face countless potential headaches. A small problem can become a major disaster. Early warning signs exist but often you can't hear or see them.
+      </p>
+      <img class="text-section__image" src="img/text-section-image.png" width="240px" height="348px" alt="Text Section Decoration Image">
+    </div>
+    <section class="features" id="features">
+      <h2 class="visually-hidden">Our features</h2>
+      <div class="container">
+        <div class="features__inner">
+          <div class="features__content">
+            <img class="features__content-image" src="img/features-illustration.png" width="384px" height="391px" alt="Features Illustration">
+            <p class="features__content-text features__content-text--one">
+              Does your home know about hot water problem?
+            </p>
+            <p class="features__content-text features__content-text--two">
+              Does your home know when a pipe is leaking?
+            </p>
+            <p class="features__content-text features__content-text--three">
+              Does it anticipate system issues from wear and tear?
+            </p>
+            <p class="features__content-text features__content-text--four">
+              Does it alert you to irregular system behaviors that threaten your health and well-being?
+            </p>
+          </div>
+          <div class="features__wrapper">
+            <div class="section-info">
+              <span class="section__subtitles">Features</span>
+              <h2 class="section__title">Meet Siphome</h2>
+              <p class="section-text">
+                The most comprehensive smart solution to home maintenance. All it takes is a simple and affordable sensor installation by one of our Siphome certified technicians.
+              </p>
+            </div>
+            <div class="features__container">
+              <div class="features__info">
+                <ul class="features__list">
+                  <li class="features__list-item">
+                    <img class="features__img" src="img/automatic-threat-detection.png" width="55px" height="55px" alt="Automatic Threat Detection Icon">
+                    <h3 class="features__titles">Automatic Threat Detection</h3>
+                    <p class="features__text">Siphome reacts the moment your equipment fails, alerting you to the problem.</p>
+                  </li>
+                  <li class="features__list-item">
+                    <img class="features__img" src="img/smart-diagnostics.png" width="55px" height="55px" alt="Smart Diagnostics Icon">
+                    <h3 class="features__titles">Smart Diagnostics</h3>
+                    <p class="features__text">See exactly what is malfunctioning and compare our maintenance options on the same screen.</p>
+                  </li>
+                  <li class="features__list-item features__list-item--margin">
+                    <img class="features__img" src="img/disaster-prevention.png" width="55px" height="55px" alt="Disaster Prevention Icon">
+                    <h3 class="features__titles">Disaster Prevention</h3>
+                    <p class="features__text">Predictive analytics lets you see what needs maintenance before it fails.</p>
+                  </li>
+                  <li class="features__list-item features__list-item--margin">
+                    <img class="features__img" src="img/service.png" width="55px" height="55px" alt="24/7 Service Icon">
+                    <h3 class="features__titles">24/7 Service</h3>
+                    <p class="features__text">Siphome reacts the moment your equipment fails, alerting you to the problem.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="update">
+      <h2 class="visually-hidden">Our updates</h2>
+      <div class="update__inner">
+        <div class="update__content">
+          <div class="update-info">
+            <span class="section__subtitles">Update</span>
+            <h2 class="section__title">It starts with an upgrade</h2>
+          </div>
+        </div>
+        <div class="update__bg">
+          <img class="update__bg-img" src="img/update-section-bg.png" alt="Update Section Background" width="760px" height="1104">
+        </div>
+        <div class="update__wrapper">
+          <div class="update__image">
+            <div class="update__dot">
+              <img class="update__dot-img" src="img/update-dot-image.png" width="168px" height="240px" alt="Update Section Decoration Image">
+            </div>
+            <div class="update__image-wrapper">
+              <img class="update__image-img" src="img/update-section-image.png" width="750px" height="676px" alt="Update Section Image">
+            </div>
+            <div class="update__dot-wrapper">
+              <img src="img/update-dot-image.png" width="168px" height="240px" alt="Update Section Decoration Image">
+              <img class="update__dot-two" src="img/update-dot-image.png" width="168px" height="240px" alt="Update Section Decoration Image">
+            </div>
+          </div>
+          <div class="update__list-wrapper">
+            <ul class="update__list">
+              <li class="update__item">
+                <div class="update__item-image">
+                  <img class="update__item-img" src="img/monitor.png" width="60px" height="60px" alt="Monitor Icon">
+                </div>
+                <div class="update__item-descr">
+                  <h3 class="update__item-title">Monitor</h3>
+                  <p class="update__item-text">
+                    Make your standard systems smart with Siphome. A simple installation or integration and we can start to monitor 24/7 to make sure your home is Siphome.
+                  </p>
+                </div>
+              </li>
+              <li class="update__item">
+                <div class="update__item-image">
+                  <img class="update__item-img" src="img/maintenance.png" width="60px" height="60px" alt="Maintenance Icon">
+                </div>
+                <div class="update__item-descr">
+                  <h3 class="update__item-title">Maintenance</h3>
+                  <p class="update__item-text">
+                    Siphome helps you maintain your home. The HomeHealth Record ensures you have the right information at the right time, and if you aren’t able to do the maintenance yourself, we can connect you to a service pro to help.
+                  </p>
+                </div>
+              </li>
+              <li class="update__item">
+                <div class="update__item-image">
+                  <img class="update__item-img" src="img/repair.png" width="60px" height="60px" alt="Repair Icon">
+                </div>
+                <div class="update__item-descr">
+                  <h3 class="update__item-title">Repair</h3>
+                  <p class="update__item-text">
+                    Siphome empowers you with smart notifications so you can make repairs before they become problems. Notifications provide diagnostics and recommended next actions so you know what to do and have the same information as your service pro.
+                  </p>
+                </div>
+              </li>
+              <li class="update__item">
+                <div class="update__item-image">
+                  <img class="update__item-img" src="img/repair.png" width="60px" height="60px" alt="Replace Icon">
+                </div>
+                <div class="update__item-descr">
+                  <h3 class="update__item-title">Replace</h3>
+                  <p class="update__item-text">
+                    Improve your home over time. Build your next-gen smart home with Siphome’s advice along the way.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="page-background">
+      <section class="services" id="services">
+        <h2 class="visually-hidden">Our services</h2>
+        <div class="container">
+          <div class="services__inner">
+            <div class="services__info">
+              <span class="section__subtitles">Services</span>
+              <h2 class="section__title">Bring more systems into the network</h2>
+              <p class="services__section-text">
+                Find out just how far Siphome can lead your home into next-gen intelligence.
+              </p>
+            </div>
+            <div class="services__wrapper">
+              <img class="services__bg" src="img/services-inner-bg.png" width="495px" height="495px" alt="Services Image">
+              <span class="services__text services__text--one">Sewer Line</span>
+              <span class="services__text services__text--two">Sump Pump</span>
+              <span class="services__text services__text--three">Dehumidifier</span>
+              <span class="services__text services__text--four">Roof</span>
+              <span class="services__text services__text--five">Hot Water</span>
+              <span class="services__text services__text--six">HVAC</span>
+              <span class="services__text services__text--seven">SOLAR</span>
+              <span class="services__text services__text--eight">Pool</span>
+              <span class="services__text services__text--nine">Septic tank</span>
+              <span class="services__text services__text--ten">Appliances</span>
+            </div>
+          </div>
+          <div class="services__slider">
+            <div class="services__item services__slider-item">
+              <img class="services__slider-img" src="img/mobile-command-management.png" width="55px" height="56px" alt="Mobile Command Management Icon">
+              <p class="services__grid-text">Mobile Command Management</p>
+            </div>
+            <div class="services__item services__slider-item">
+              <img class="services__slider-img" src="img/equipment-optimizer.png" width="55px" height="56px" alt="Equipment Optimizer Icon">
+              <p class="services__grid-text">Equipment Optimizer</p>
+            </div>
+            <div class="services__item services__slider-item">
+              <img class="services__slider-img" src="img/lifecycle-prediction.png" width="55px" height="56px" alt="Lifecycle Prediction Icon">
+              <p class="services__grid-text">Lifecycle Prediction</p>
+            </div>
+            <div class="services__item services__slider-item">
+              <img class="services__slider-img" src="img/troubleshooting-guide.png" width="55px" height="56px" alt="Troubleshooting Guide Icon">
+              <p class="services__grid-text">Troubleshooting Guide</p>
+            </div>
+            <div class="services__item services__slider-item">
+              <img class="services__slider-img" src="img/energy-optimizer.png" width="55px" height="56px" alt="Energy Optimizer Icon">
+              <p class="services__grid-text">Energy Optimizer</p>
+            </div>
+            <div class="services__item services__slider-item">
+              <img class="services__slider-img" src="img/smart-diagnostics.png" width="55px" height="56px" alt="Smart Diagnostics Icon">
+              <p class="services__grid-text">Smart Diagnostics</p>
+            </div>
+            <div class="services__item services__slider-item">
+              <img class="services__slider-img" src="img/vital-equipment-scan.png" width="55px" height="56px" alt="Vital Equipment Scan Icon">
+              <p class="services__grid-text">Vital Equipment Scan</p>
+            </div>
+            <div class="services__item services__slider-item">
+              <img class="services__slider-img" src="img/smart-alerts.png" width="55px" height="56px" alt="Smart Alerts Icon">
+              <p class="services__grid-text">Smart Alerts</p>
+            </div>
+            <div class="services__item services__slider-item">
+              <img class="services__slider-img" src="img/preventative-maintenance.png" width="55px" height="56px" alt="Preventative Maintenance Icon">
+              <p class="services__grid-text">Preventative Maintenance</p>
+            </div>
+          </div>
+          <div class="services__grid">
+            <div class="services__item">
+              <img class="services__img" src="img/mobile-command-management.png" width="55px" height="56px" alt="Mobile Command Management Icon">
+              <p class="services__grid-text">Mobile Command Management</p>
+            </div>
+            <div class="services__item">
+              <img class="services__img" src="img/equipment-optimizer.png" width="55px" height="56px" alt="Equipment Optimizer Icon">
+              <p class="services__grid-text">Equipment Optimizer</p>
+            </div>
+            <div class="services__item">
+              <img class="services__img" src="img/lifecycle-prediction.png" width="55px" height="56px" alt="Lifecycle Prediction Icon">
+              <p class="services__grid-text">Lifecycle Prediction</p>
+            </div>
+            <div class="services__item">
+              <img class="services__img" src="img/troubleshooting-guide.png" width="55px" height="56px" alt="Troubleshooting Guide Icon">
+              <p class="services__grid-text">Troubleshooting Guide</p>
+            </div>
+            <div class="services__item">
+              <img class="services__img" src="img/energy-optimizer.png" width="55px" height="56px" alt="Energy Optimizer Icon">
+              <p class="services__grid-text">Energy Optimizer</p>
+            </div>
+            <div class="services__item">
+              <img class="services__img" src="img/smart-diagnostics.png" width="55px" height="56px" alt="Smart Diagnostics Icon">
+              <p class="services__grid-text">Smart Diagnostics</p>
+            </div>
+            <div class="services__item">
+              <img class="services__img" src="img/vital-equipment-scan.png" width="55px" height="56px" alt="Vital Equipment Scan Icon">
+              <p class="services__grid-text">Vital Equipment Scan</p>
+            </div>
+            <div class="services__item">
+              <img class="services__img" src="img/smart-alerts.png" width="55px" height="56px" alt="Smart Alerts Icon">
+              <p class="services__grid-text">Smart Alerts</p>
+            </div>
+            <div class="services__item">
+              <img class="services__img" src="img/preventative-maintenance.png" width="55px" height="56px" alt="Preventative Maintenance Icon">
+              <p class="services__grid-text">Preventative Maintenance</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials" id="testimonials">
+        <h2 class="visually-hidden">Our testimonials</h2>
+        <div class="testimonials__info">
+          <span class="section__subtitles">Testimonials</span>
+          <h2 class="section__title">Let’s see what people says<br> about Siphome</h2>
+        </div>
+        <div class="testimonials__slider">
+          <div class="testimonials__slider-item testimonials__slider--height">
+            <img class="testimonials__autor-image" src="img/testimonials-comment-autor-1.png" width="74px" height="74px" alt="Testimonials Comment Autor">
+            <p class="testimonials__slider-desription">“We have been waiting on this product and now that we have installed a few. We think it will make the industry by storm.”</p>
+            <div class="slider__desc-tittle">
+              <h4 class="slider__title">Ryan Oliver</h4>
+              <p class="slider__text">Design Manager Kiluna</p>
+            </div>
+          </div>
+          <div class="testimonials__slider-item">
+            <img class="testimonials__autor-image" src="img/testimonials-comment-autor-2.png" width="74px" height="74px" alt="Testimonials Comment Autor">
+            <p class="testimonials__slider-desription">“Thank you for introducing me to Siphome!  We like how the system gives updates to us and the homeowner as well to give us a real time update on how everything is working.”</p>
+            <div class="slider__desc">
+              <h4 class="slider__title">Gladina Samantha</h4>
+              <p class="slider__text">CEO JobDesk United, LLC</p>
+            </div>
+          </div>
+          <div class="testimonials__slider-item testimonials__slider--height">
+            <img class="testimonials__autor-image" src="img/testimonials-comment-autor-1.png" width="74px" height="74px" alt="Testimonials Comment Autor">
+            <p class="testimonials__slider-desription">“We have been waiting on this product and now that we have installed a few. We think it will make the industry by storm.”</p>
+            <div class="slider__desc">
+              <h4 class="slider__title">Ryan Oliver</h4>
+              <p class="slider__text">Design Manager Kiluna</p>
+            </div>
+          </div>
+          <div class="testimonials__slider-item">
+            <img class="testimonials__autor-image" src="img/testimonials-comment-autor-2.png" width="74px" height="74px" alt="Testimonials Comment Autor">
+            <p class="testimonials__slider-desription">“Thank you for introducing me to Siphome!  We like how the system gives updates to us and the homeowner as well to give us a real time update on how everything is working.”</p>
+            <div class="slider__desc">
+              <h4 class="slider__title">Gladina Samantha</h4>
+              <p class="slider__text">CEO JobDesk United, LLC</p>
+            </div>
+          </div>
+          <div class="testimonials__slider-item testimonials__slider--height">
+            <img class="testimonials__autor-image" src="img/testimonials-comment-autor-1.png" width="74px" height="74px" alt="Testimonials Comment Autor">
+            <p class="testimonials__slider-desription">“We have been waiting on this product and now that we have installed a few. We think it will make the industry by storm.”</p>
+            <div class="slider__desc">
+              <h4 class="slider__title">Ryan Oliver</h4>
+              <p class="slider__text">Design Manager Kiluna</p>
+            </div>
+          </div>
+          <div class="testimonials__slider-item">
+            <img class="testimonials__autor-image" src="img/testimonials-comment-autor-2.png" width="74px" height="74px" alt="Testimonials Comment Autor">
+            <p class="testimonials__slider-desription">“Thank you for introducing me to Siphome!  We like how the system gives updates to us and the homeowner as well to give us a real time update on how everything is working.”</p>
+            <div class="slider__desc">
+              <h4 class="slider__title">Gladina Samantha</h4>
+              <p class="slider__text">CEO JobDesk United, LLC</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="contact">
+      <h2 class="visually-hidden">Our contact</h2>
+      <div class="contact__inner" id="contact">
+        <div class="contact__content">
+          <div class="section-info">
+            <span class="section__subtitles">Contact</span>
+            <h2 class="section__title">Skip logging in,<br> get what you need<br> with a few key details</h2>
+          </div>
+          <div class="contact__image">
+            <img class="contact__img" src="img/contact-illustration.png" width="413px" height="362px" alt="Contact Illustration Image">
+          </div>
+        </div>
+        <div class="contact__form-inner">
+          <div class="contact-form__wrapper">
+            <form class="contact__form" action="#">
+              <div class="contact__form-item">
+                <label class="contact-form__text" for="fname">Your Name (required)</label>
+                <input class="contact__form-input" type="text" id="fname" name="full-name" placeholder="Enter name">
+              </div>
+              <div class="contact__form-item">
+                <label class="contact-form__text" for="email">Email (required)</label>
+                <input class="contact__form-input" type="email" id="email" name="email" placeholder="Enter email">
+              </div>
+              <div class="contact__form-item">
+                <label class="contact-form__text" for="subject">Subject</label>
+                <input class="contact__form-input" type="text" id="subject" name="subject" placeholder="Enter subject">
+              </div>
+              <div class="contact__form-item">
+                <label class="contact-form__text" for="job">Select Job</label>
+                <select class="contact__form-input" name="job" id="job">
+                  <option value="Job">Please Select</option>
+                  <option value="Job">Title</option>
+                  <option value="Job">Title</option>
+                  <option value="Job">Title</option>
+                  <option value="Job">Title</option>
+                </select>
+              </div>
+              <div class="contact__form-item">
+                <label class="contact-form__text" for="company-name">Company Name</label>
+                <input class="contact__form-input" type="text" id="company-name" name="company-name" placeholder="Enter company name">
+              </div>
+              <div class="contact__form-item">
+                <label class="contact-form__text" for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Enter message" rows="3"></textarea>
+              </div>
+              <div class="contact__button-wrapper">
+                <button class="contact__button" type="button">Send Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__address-wrapper">
+          <div class="footer__logo">
+            <img  src="img/footer-logo.png" width="158px" height="42px" alt="Footer Logo">
+          </div>
+          <address class="footer__address">
+            <b>Siphome, LLC</b><br>
+            The New Building 2320  Lang Avenue,<br>
+            Park Valley, Utah,<br>
+            United States.<br>
+            84329
+            <div class="footer__link">
+              <p>P: <a class="footer__link-item" href="tel:+11769092900">+1 176 909 2900</a></p>
+              <p>E: <a class="footer__link-item" href="mailto:siphome@gmail.com">siphome@gmail.com</a></p>
+            </div>
+          </address>
+        </div>
+        <div class="footer__wrapper">
+          <div class="footer__nav-wrapper footer__nav-margin">
+            <nav class="footer__nav">
+              <p class="footer__title">Navigation</p>
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">Home</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#features">Features</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">Services</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">We Care</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">Idea Exchange</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__about footer__nav-margin">
+            <p class="footer__title">About</p>
+            <ul class="footer__about-list">
+              <li class="footer__about-item">
+                <a class="footer__about-link" href="#contact">Contact Us</a>
+              </li>
+              <li class="footer__about-item">
+                <a class="footer__about-link" href="#">Privacy & Policy</a>
+              </li>
+              <li class="footer__about-item">
+                <a class="footer__about-link" href="#">Terms & Conditions</a>
+              </li>
+              <li class="footer__about-item">
+                <a class="footer__about-link" href="#">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__social footer__nav-margin">
+            <p class="footer__title">Stay Connected</p>
+            <div class="footer__social-wrapper">
+              <ul class="footer__social-list">
+                <li class="footer__social-item">
+                  <img class="footer__social-icon" src="img/ico-fb.png" width="26px" height="25px" alt="Facebook Icon">
+                  <a class="footer__social-link" href="https://www.facebook.com/" target="_blank">Facebook</a>
+                </li>
+                <li class="footer__social-item">
+                  <img class="footer__social-icon" src="img/ic-twitter.png" width="30px" height="23px" alt="Twitter Icon">
+                  <a class="footer__social-link" href="https://twitter.com/" target="_blank">Twitter</a>
+                </li>
+                <li class="footer__social-item">
+                  <img class="footer__social-icon" src="img/ic-instagram.png" width="28px" height="27px" alt="Instagram Icon">
+                  <a class="footer__social-link" href="https://www.instagram.com/" target="_blank">Instagram</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="copyright">
+        <span class="copyright__text">Copyright© 2020. Siphome Smart home LLC.</span>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
