@@ -1,8 +1,15 @@
 const btn = document.querySelector(".menu-adaptive__nav-btn")
+const btnText = document.querySelector (".menu-adaptive__nav-btn")
 let menuAdaptive = document.querySelector(".menu-adaptive")
+
 btn.onclick = () => {
   menuAdaptive.classList.toggle("menu-adaptive__show")
 };
+
+btnText.addEventListener("click", function() {
+  btnText.innerHTML =
+    (btnText.innerHTML === "Menu") ? btnText.innerHTML = "Close" : btnText.innerHTML = "Menu";
+});
 
 $(document).ready(function() {
   $(".services__slider").slick({
