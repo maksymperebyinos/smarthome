@@ -1,6 +1,6 @@
 const btn = document.querySelector(".menu-adaptive__nav-btn")
 const btnText = document.querySelector (".menu-adaptive__nav-btn")
-let menuAdaptive = document.querySelector(".menu-adaptive")
+const menuAdaptive = document.querySelector(".menu-adaptive")
 
 btn.onclick = () => {
   menuAdaptive.classList.toggle("menu-adaptive__show")
